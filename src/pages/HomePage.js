@@ -52,7 +52,7 @@ const HomePage = () => {
 
       <OurArtists />
       <Portfolio />
-      <PhoneForm />
+
     </div>
   );
 };
