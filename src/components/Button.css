@@ -1,0 +1,18 @@
+.ButtonTransparent {
+  font-family: "Work Sans";
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 24px;
+  word-wrap: break-word;
+
+  color: #ff512a;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.ButtonTransparent:hover {
+  color: #ff512a;
+  filter: drop-shadow(10px 10px 10px #ff512a);
+}

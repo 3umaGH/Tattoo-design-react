@@ -1,0 +1,82 @@
+.artistsWrapper {
+  background-color: #131315;
+  padding: 80px 100px 120px 100px;
+  flex-wrap: wrap;
+}
+
+.ourArtists {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
+
+.artistsTitle {
+  color: #fff;
+  font-family: Chinoz;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 48px */
+  text-transform: uppercase;
+}
+
+.controls {
+  display: flex;
+  justify-self: flex-start;
+  gap: 30px;
+}
+
+.artists {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding-bottom: 70px;
+}
+
+.scroller {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 30px;
+}
+
+@media (max-width: 900px) {
+  .ourArtists {
+    flex-wrap: wrap;
+    align-items: center;
+
+    margin: auto;
+  }
+
+  .controls {
+    flex-basis: 100%;
+    padding: 0px;
+    padding-top: 50px;
+
+    justify-content: center;
+  }
+  .artistsTitle {
+    padding: 0px;
+    margin: 0px auto;
+  }
+
+  .artists {
+    justify-content: center;
+    margin: auto;
+  }
+
+  .scroller {
+    display:none;
+  }
+}
+
+@media (min-width: 1900px) {
+  .ourArtists {
+    padding-left: 20vw;
+    padding-right: 20vw;
+  }
+}

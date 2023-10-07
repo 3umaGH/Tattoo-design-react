@@ -1,0 +1,75 @@
+.parallaxThumb {
+  display: flex;
+
+  justify-content: center;
+  background-image: url("./thumbnail.jpg");
+
+  /* Set a specific height */
+  min-height: 750px;
+  height: 100%;
+  width: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.parallaxContents {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.slogan {
+  margin-top: 223px;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+  color: #fff;
+  text-align: center;
+  /* Headings/H1 - Chinoz */
+  font-family: Chinoz;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 69.6px */
+  text-transform: uppercase;
+}
+
+.sloganHighlight {
+  color: #ff512a;
+  position:relative;
+
+  font-family: Chinoz;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+
+.sloganSmall {
+  color: #c6cace;
+
+  font-family: "Work Sans";
+  font-size: 1.125rem;
+  font-style: normal;
+  line-height: 150%; /* 27px */
+  text-align: center;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+.arrow {
+  margin:auto;
+  margin-bottom:20px;
+  animation: arrow 5s infinite;
+  
+}
+@keyframes arrow {
+  50% {margin-bottom:50px}
+}

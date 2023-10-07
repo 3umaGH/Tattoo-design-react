@@ -1,0 +1,93 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.navBar {
+  height: 106px;
+  display: flex;
+
+  background-color: rgb(0, 0, 0);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  
+  width: 100%;
+  background: #131315;
+}
+
+.logo {
+margin: 5%;
+}
+
+li a {
+  color: #c6cace;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 24px */
+  text-transform: uppercase;
+
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff512a;
+}
+
+ul {
+  list-style: none;
+
+}
+
+ul li {
+  display: inline-block;
+  padding: 24px;
+}
+
+.bookAppointment {
+  display: flex;
+  width: auto;
+  height: 46px;
+
+  left: 0px;
+  padding:100px;
+ 
+ 
+
+  border-radius: 7px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+
+
+  border: none;
+  cursor: pointer;
+}
+
+.bookAppointment:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 1272px) {
+  .bookAppointment,ul {
+    display:none;
+  }
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    width: 100%;
+    background: #131315;
+  }
+  
+
+}

@@ -1,0 +1,41 @@
+.NumberBox {
+  width: 295px;
+  height: 165px;
+  flex-shrink: 0;
+
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: #282c2f;
+
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.numValue {
+  color: var(--Accent, #ff512a);
+  text-align: center;
+
+  /* Headings/H2 - Chinoz */
+  font-family: Chinoz;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 48px */
+  text-transform: uppercase;
+
+  padding-top: 44px; 
+}
+
+.numLabel {
+  color: var(--base-colors-white, #fff);
+
+  /* Buttons/Primary - Work Sans - Semibold */
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 30px */
+  text-transform: uppercase;
+}

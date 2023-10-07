@@ -1,0 +1,19 @@
+.portfolioCard {
+  border-radius: 15px;
+  width: 400px;
+  height: 277px;
+
+  width:100%;
+  height:auto;
+}
+
+.portfolioImage{
+  width:100%;
+  height:auto;
+
+  transition: all 0.2s ease-in-out;
+}
+
+.portfolioImage:hover{
+  transform: scale(150%);
+}

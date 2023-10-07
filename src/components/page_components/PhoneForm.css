@@ -1,0 +1,87 @@
+.phoneFormWrapper {
+  background-color: #131315;
+  flex-wrap: wrap;
+  display: flex;
+  padding: 0px 100px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.phoneForm {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: flex-start;
+  border-radius: 30px;
+  background: var(--neutral-colors-dark-2, #282c2f);
+}
+
+.formTitle {
+  color: #fff;
+
+  /* Headings/H1 - Chinoz */
+  font-family: Chinoz;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 69.6px */
+  text-transform: uppercase;
+
+  padding-left: 85px;
+  padding-right: 85px;
+  padding-top: 80px;
+  padding-bottom: 101px;
+}
+
+.formTitleHighlight {
+  color: var(--Accent, #ff512a);
+
+  /* Headings/H1 - Chinoz */
+  font-family: Chinoz;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+
+.info {
+  color: var(--Accent, #ff512a);
+
+  /* Paragraphs/Small body - Work Sans - Medium */
+  font-family: Work Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 21px */
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+
+  padding-top: 80px;
+  padding-right: 85px;
+  padding-bottom: 40px;
+}
+
+.form__input {
+  font-family: Work Sans;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 25.5px */
+
+  width: 100%;
+  max-width: 440px;
+  
+  border: 0;
+  border-bottom: 2px solid #c6cace;
+  outline: 0;
+  color: var(--neutral-colors-dark-1, #656d76);
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
