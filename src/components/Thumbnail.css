@@ -69,11 +69,27 @@
   animation: arrow 5s infinite;
   
 }
+
 @keyframes arrow {
   0%, 100% {
     transform: translateY(0);
   }
   50% {
     transform: translateY(28px);
+  }
+}
+
+@media (max-width: 900px) {
+  .slogan {
+    font-size: 36px;
+  }
+  .sloganHighlight {
+    font-size: 36px;
+  }
+
+  .sloganSmall{
+
+      font-size: 14px;
+    
   }
 }

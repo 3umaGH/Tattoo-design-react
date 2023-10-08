@@ -11,6 +11,7 @@ const OurArtists = () => {
 
         <div className="controls">
           <svg
+            className="controlsButton"
             xmlns="http://www.w3.org/2000/svg"
             width="80"
             height="80"
@@ -44,6 +45,7 @@ const OurArtists = () => {
           </svg>
 
           <svg
+            className="controlsButton"
             xmlns="http://www.w3.org/2000/svg"
             width="80"
             height="80"

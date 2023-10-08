@@ -6,13 +6,11 @@
   flex-direction: column;
   align-items: center;
   gap: 70px;
-  
 }
 
 .portfolio {
   text-align: center;
   flex-wrap: wrap;
-  
 }
 
 .portfolioTitle {
@@ -26,11 +24,11 @@
   line-height: 120%; /* 48px */
   text-transform: uppercase;
 
-  margin-bottom:70px;
+  margin-bottom: 70px;
 }
 
 .titleHighlight {
-  color: var(--accent);
+  color: var(--Accent);
 
   /* Headings/H2 - Chinoz */
   font-family: Chinoz;
@@ -43,15 +41,23 @@
 
 .portfolioImages {
   display: flex;
-  
+
   gap: 20px;
-  
+}
+
+@media (max-width: 900px) {
+  .portfolioTitle {
+    font-size: 26px;
+  }
+  .titleHighlight {
+    font-size: 26px;
+  }
+
 }
 
 @media (max-width: 750px) {
-    .portfolioImages {
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-
+  .portfolioImages {
+    flex-wrap: wrap;
+    justify-content: center;
   }
+}
