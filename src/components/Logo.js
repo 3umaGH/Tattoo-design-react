@@ -1,7 +1,7 @@
 
 const Logo = () => {
   return (
-    <div className="logo" style={{ width: 161.22, height: 14.4, top: 46, left: 100 }}>
+    <div className="logo">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="162"

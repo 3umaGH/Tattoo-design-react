@@ -11,11 +11,7 @@ const PhoneForm = () => {
       <div className="phoneForm">
         <div>
           <h1 className="formTitle">
-            ready to get{" "}
-            <span className="formTitleHighlight">
-              <SlowPrintText fullText={"tattooed"} charInterval={100} />
-            </span>
-            ?
+            ready to get <span className="formTitleHighlight"><SlowPrintText fullText={"Tattooed"} charInterval={100} /></span>?
           </h1>
         </div>
         <div className="inputs">
@@ -27,6 +23,7 @@ const PhoneForm = () => {
           />
           <p className="info">*We will contact you as soon as possible</p>
           <ButtonSolid
+            className="phoneButton"
             style={{
               display: "flex",
               justifyContent: "center",
@@ -35,15 +32,16 @@ const PhoneForm = () => {
               paddingRight: 28,
               paddingBottom: 11,
               paddingLeft: 32,
-              marginTop: 40,
               gap: 10,
             }}
           >
-            <SlowPrintText fullText={"Send"} charInterval={100} />
+            Send
             <Icon
               iconPath={"../img/assets/arrow-forward-outline.png"}
               style={{
                 filter: "brightness(10)",
+                width: "100%",
+                height: "auto",
               }}
             />
           </ButtonSolid>

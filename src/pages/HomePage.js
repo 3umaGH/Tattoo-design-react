@@ -1,13 +1,14 @@
 import AboutUs from "../components/page_components/AboutUs";
 import OurArtists from "../components/page_components/OurArtists";
 import Portfolio from "../components/page_components/Portfolio";
+import PhoneForm from "../components/page_components/PhoneForm";
+import FAQ from "../components/page_components/FAQ";
 
 import Thumbnail from "../components/Thumbnail";
 import SlowPrintText from "../components/SlowPrintText";
 import ButtonSolid from "../components/ButtonSolid";
 import Icon from "../components/Icon";
 import "./HomePage.css";
-import PhoneForm from "../components/page_components/PhoneForm";
 
 const HomePage = () => {
   return (
@@ -52,6 +53,9 @@ const HomePage = () => {
 
       <OurArtists />
       <Portfolio />
+      <PhoneForm/>
+      <FAQ/>
+
 
     </div>
   );

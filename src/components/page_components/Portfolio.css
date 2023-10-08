@@ -46,6 +46,9 @@
 }
 
 @media (max-width: 900px) {
+  .portfolioWrapper{
+    padding-top:0px;
+  }
   .portfolioTitle {
     font-size: 26px;
   }

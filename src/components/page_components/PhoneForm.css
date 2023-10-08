@@ -9,7 +9,6 @@
 }
 .phoneForm {
   display: flex;
-
   justify-content: space-between;
   align-items: flex-start;
   border-radius: 30px;
@@ -60,8 +59,11 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+
   gap: 10px;
 
+  width: 440px;
+  
   padding-top: 80px;
   padding-right: 85px;
   padding-bottom: 40px;
@@ -74,9 +76,10 @@
   font-weight: 500;
   line-height: 150%; /* 25.5px */
 
-  width: 100%;
   max-width: 440px;
-  
+  min-width:100px;
+  width: 30.556vw;
+
   border: 0;
   border-bottom: 2px solid #c6cace;
   outline: 0;
@@ -84,4 +87,58 @@
   padding: 7px 0;
   background: transparent;
   transition: border-color 0.2s;
+}
+
+.inputs .ButtonSolid {
+  margin-top: 40px;
+}
+
+.phoneButton {
+  margin-top: 50px;
+}
+
+@media (max-width: 1439px) {
+  .form__input{
+    text-align: center;
+  }
+
+  .phoneFormWrapper {
+    padding: 0px;
+  }
+  .formTitle {
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 40px;
+    padding-bottom: 41px;
+
+    font-size: 4.028vw;
+  }
+
+  .formTitleHighlight {
+    font-size: 4.028vw;
+  }
+
+  .phoneForm {
+    display: block;
+    text-align: center;
+  }
+
+  .inputs {
+    margin: auto;
+    padding: 0;
+    width: 30.556vw;
+  }
+
+  .inputs .ButtonSolid {
+    margin-top: 40px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-bottom:50px;
+  }
+  .info{
+    margin:auto;
+    text-align: center;
+  }
 }

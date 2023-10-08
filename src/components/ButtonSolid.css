@@ -19,3 +19,9 @@
   color: #ffffff;
   filter: drop-shadow(2px 0px 10px var(--Accent));
 }
+
+@media (max-width: 500px){
+  .ButtonSolid{
+    font-size:3vw;
+  }
+}
