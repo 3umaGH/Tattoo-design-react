@@ -5,7 +5,7 @@
 
   border-radius: 15px;
   border: 1px solid rgba(255, 255, 255, 0.1);
-  background-color: #282c2f;
+  background-color: var(--neutrals-colors-dark-2);
 
   display: inline-flex;
   flex-direction: column;

@@ -5,7 +5,7 @@
   line-height: 24px;
   word-wrap: break-word;
 
-  color: #ff512a;
+  color: var(--Accent);
   background-color: transparent;
   border: none;
   cursor: pointer;
@@ -13,6 +13,6 @@
 }
 
 .ButtonTransparent:hover {
-  color: #ff512a;
-  filter: drop-shadow(10px 10px 10px #ff512a);
+  color: var(--Accent);
+  filter: drop-shadow(10px 10px 10px var(--Accent));
 }

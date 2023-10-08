@@ -1,7 +1,9 @@
 import PortfolioCard from "../PortfolioCard";
-import SlowPrintText from "../SlowPrintText";
 import ButtonSolid from "../ButtonSolid";
 import Icon from "../Icon";
+
+
+import "../../variables.css";
 import "./Portfolio.css";
 
 const Portfolio = () => {

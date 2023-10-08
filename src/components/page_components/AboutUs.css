@@ -1,5 +1,5 @@
 .aboutUsWrapper {
-  background-color: #131315;
+  background-color: var(--background);
   padding: 120px 100px;
 }
 .aboutus {
@@ -8,11 +8,11 @@
   align-items: flex-start;
   padding-top: 120px;
   padding-bottom: 80px;
-  overflow: hidden;
+
 }
 
 .title {
-  color: #fff;
+  color: var(--base-colors-white);
   font-family: Chinoz;
   font-size: 40px;
   font-style: normal;
@@ -35,7 +35,7 @@
 }
 
 .numberBoxes {
-  background-color: #131315;
+  background-color: var(--background);
   display: flex;
   align-items: flex-start;
   justify-content: center;

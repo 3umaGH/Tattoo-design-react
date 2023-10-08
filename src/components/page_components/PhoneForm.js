@@ -1,19 +1,22 @@
 import SlowPrintText from "../SlowPrintText";
 import ButtonSolid from "../ButtonSolid";
 import Icon from "../Icon";
+
 import "./PhoneForm.css";
+import "../../variables.css";
 
 const PhoneForm = () => {
   return (
     <div className="phoneFormWrapper">
       <div className="phoneForm">
         <div>
-        <h1 className="formTitle">
-          ready to get{" "}
-          <span className="formTitleHighlight">
-            <SlowPrintText fullText={"tattooed"} charInterval={100} />
-          </span>?
-        </h1>
+          <h1 className="formTitle">
+            ready to get{" "}
+            <span className="formTitleHighlight">
+              <SlowPrintText fullText={"tattooed"} charInterval={100} />
+            </span>
+            ?
+          </h1>
         </div>
         <div className="inputs">
           <input

@@ -1,5 +1,5 @@
 .phoneFormWrapper {
-  background-color: #131315;
+  background-color: var(--background);
   flex-wrap: wrap;
   display: flex;
   padding: 0px 100px;
@@ -17,7 +17,7 @@
 }
 
 .formTitle {
-  color: #fff;
+  color: var(--base-colors-white);
 
   /* Headings/H1 - Chinoz */
   font-family: Chinoz;

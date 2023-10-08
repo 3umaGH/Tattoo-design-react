@@ -17,5 +17,5 @@
 
 .ButtonSolid:hover {
   color: #ffffff;
-  filter: drop-shadow(2px 0px 10px #ff512a);
+  filter: drop-shadow(2px 0px 10px var(--Accent));
 }

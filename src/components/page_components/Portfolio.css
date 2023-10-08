@@ -1,5 +1,5 @@
 .portfolioWrapper {
-  background-color: #131315;
+  background-color: var(--background);
 
   display: flex;
   padding: 80px 100px 120px 100px;
@@ -16,7 +16,7 @@
 }
 
 .portfolioTitle {
-  color: #fff;
+  color: var(--base-colors-white);
 
   /* Headings/H2 - Chinoz */
   font-family: Chinoz;
@@ -30,7 +30,7 @@
 }
 
 .titleHighlight {
-  color: var(--Accent, #ff512a);
+  color: var(--accent);
 
   /* Headings/H2 - Chinoz */
   font-family: Chinoz;

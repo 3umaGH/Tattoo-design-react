@@ -3,6 +3,8 @@ import Logo from "../Logo";
 import Icon from "../Icon";
 import "./Navbar.css";
 
+import "../../variables.css";
+
 const Navbar = () => {
   return (
     <div className="navBar">

@@ -1,6 +1,8 @@
 import Navbar from "./Navbar";
 import "./Layout";
 
+import "../../variables.css";
+
 const Layout = (props) => {
   return (
     <div>

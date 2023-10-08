@@ -2,6 +2,8 @@
 import SlowPrintText from "./SlowPrintText";
 import "./Thumbnail.css";
 
+import "../variables.css";
+
 const Thumbnail = (props) => {
 
 

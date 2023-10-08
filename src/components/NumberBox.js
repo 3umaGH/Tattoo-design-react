@@ -1,6 +1,8 @@
 import CountUpElement from "./CountUpElement";
 import "./NumberBox.css";
 
+import "../variables.css";
+
 const NumberBox = ({ value, label }) => {
   return (
     <div className="NumberBox">

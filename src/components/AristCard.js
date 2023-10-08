@@ -1,5 +1,7 @@
 import "./ArtistCard.css";
 
+import "../variables.css";
+
 const ArtistCard = (props) => {
   return (
     <div className="artist">

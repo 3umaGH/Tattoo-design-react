@@ -2,11 +2,13 @@ import "./AboutUs.css";
 
 import NumberBox from "../NumberBox";
 
+import "../../variables.css";
+
 const AboutUs = () => {
   return (
     <div className="aboutUsWrapper">
       <div className="aboutus">
-        <p className="title">About Us</p>
+        <h1 className="title">About Us</h1>
 
         <div className="description">
           <p>

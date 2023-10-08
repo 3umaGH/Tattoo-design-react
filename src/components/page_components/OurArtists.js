@@ -1,5 +1,7 @@
 import ArtistCard from "../AristCard";
+
 import "./OurArtists.css";
+import "../../variables.css";
 
 const OurArtists = () => {
   return (

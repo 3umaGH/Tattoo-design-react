@@ -6,8 +6,6 @@
 .navBar {
   height: 106px;
   display: flex;
-
-  background-color: rgb(0, 0, 0);
 }
 
 header {
@@ -17,7 +15,7 @@ header {
   text-align: center;
   
   width: 100%;
-  background: #131315;
+  background: var(--base-colors-black);
 }
 
 .logo {
@@ -37,7 +35,7 @@ li a {
 }
 
 a:hover {
-  color: #ff512a;
+  color: var(--Accent);
 }
 
 ul {
@@ -72,7 +70,7 @@ ul li {
 }
 
 .bookAppointment:hover {
-  color: #ffffff;
+  color: var(--base-colors-white);
 }
 
 @media (max-width: 1272px) {
@@ -86,7 +84,6 @@ ul li {
     text-align: center;
     
     width: 100%;
-    background: #131315;
   }
   
 
